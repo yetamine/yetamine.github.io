@@ -1,0 +1,17 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+ul li {
+  list-style: none;
+}
+
+ul li::before {
+    content: "≡»";
+    display: inline-block;
+    margin-left: -2em;
+    float: left;
+    width: 2em;
+    color: $conifer;
+}
