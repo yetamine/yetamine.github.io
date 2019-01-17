@@ -15,3 +15,16 @@ ul li::before {
     width: 2em;
     color: $conifer;
 }
+
+div.logo {
+    float: right;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+code.highlighter-rouge {
+    background: unset;
+    border: unset;
+    margin: unset;
+    padding: unset;
+}
