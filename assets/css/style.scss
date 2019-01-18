@@ -36,12 +36,16 @@
   font-size: 16px;
   margin-top: 20px;
   margin-bottom: 5px;
-  color: #999;
+  color: white;
 }
 
 p {
     margin-top: 5px;
     margin-bottom: 16px;
+}
+
+p em, p strong {
+    color: white;
 }
 
 ul li {
@@ -68,4 +72,5 @@ code.highlighter-rouge {
     border: unset;
     margin: unset;
     padding: unset;
+    color: #aa80aa;
 }
