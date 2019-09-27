@@ -2,9 +2,9 @@
 layout: default
 ---
 
-# Yetamine Flow
+# Multi-Version Flow
 
-Yetamine Flow reflects semantic versioning and defines a branching model that maintains an appropriate multi-version tree structure, which helps preventing situations where semantic versioning rules could be violated. As such, it is suitable for developing components that have a public API which must be versioned properly. It is not suitable so much for aggregate components whose versioning may be arbitrary in the principle (often the case of whole applications and products).
+Multi-Version Flow reflects semantic versioning and defines a branching model that maintains an appropriate multi-version tree structure, which helps preventing many situations when the rules of semantic versioning could be violated. As such, it is suitable for developing components that have a public API which must be versioned properly. It is not suitable so much for aggregate components whose versioning may be arbitrary in the principle (often the case of whole applications and products).
 
 
 ## Versioning terminology
@@ -247,7 +247,7 @@ Because the release consists of multiple steps and possibly multiple commits (de
 10. Make the release version tag: `git tag -sm "Release version `*a.b.c*`" RELEASE/`*a.b.c*
 11. Publish the code (i.e., push the changes to the upstream) and publish the artifacts.
 
-If the procedure fails at some point, revert the changes, fix the problem and retry. Until all changes are published in the last step, it can be done. The procedure therefore reminds a two-phase commit: it prepares everything up to the point when the commit (i.e., publishing the release) is safe.
+If the procedure fails at some point, revert the changes, fix the problem and retry. Until all changes are published in the last step, it can be done. The procedure therefore reminds a two-phase commit: it prepares everything up to the point when the commit (i.e., publishing the release) is safe. The procedure can be sped up significantly when preparation of the release requires no actual commit, for instance when Maven projects use CI-friendly versioning properties.
 
 
 ### Publish a snapshot

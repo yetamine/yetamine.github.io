@@ -21,7 +21,7 @@ We committed ourselves to crafting clean code:
 
 Keeping minimal dependencies means that we favour writing pure code that does not require a particular framework support and that should be usable in most environments, although we admit that our preference of robustness and safety (implying often immutability) may not play well with frameworks requiring not-so-good practices. However, due to our focus on semantic versioning we support OSGi by default if possible and sensible.
 
-Semantic versioning affects our workflow as well. Check [Yetamine Flow](flow.html) if you are interested.
+Semantic versioning affects our workflow as well. Check our [Multi-Version Flow](flow.html) if you are interested.
 
 
 [Yetamine@GitHub]:  http://github.com/yetamine/
