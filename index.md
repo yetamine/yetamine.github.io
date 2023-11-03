@@ -4,11 +4,11 @@ layout: default
 
 # About
 
-This a site of a [a software developer][LinkedIn] who always lacks time to write a proper blog, develop cute pet projects, contribute to interesting open source projects, give talks and handle a million other amazing things.
+This a site of [a software developer][LinkedIn] who always lacks time to write a proper blog, develop cute pet projects, contribute to interesting open source projects, give talks and handle a million other amazing things.
 
 What can be found here? Not much:
 
-- [Multi-Version Flow](flow.html)
+- [Multi-Version Flow](./pages/multi-version-flow.md)
 - [Projects on GitHub][Yetamine@GitHub]
 - [Artifacts on Maven Central][Yetamine@Maven]
 
